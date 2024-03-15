@@ -1,5 +1,10 @@
-<script setup>
-  defineProps(["description", "name"]);
+<script setup lang="ts">
+interface CookieProps {
+  description?: String;
+  name: String;
+}
+
+defineProps<CookieProps>();
 </script>
 
 <template>

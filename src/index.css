@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Lemon Days';
+  src: url('./assets/lemon-days.ttf'), format('truetype');
+}
+
+@font-face {
+  font-family: 'Klik';
+  src: url('./assets/klik.otf'), format('opentype');
+}
+
+.lemon-days {
+  font-family: 'Lemon Days', sans-serif;
+}
+
+body {
+  font-family: 'Klik', sans-serif;
+}
+
+.sweet-tings-background {
+  background-image: url(./assets/chocolate-chip-cookies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
