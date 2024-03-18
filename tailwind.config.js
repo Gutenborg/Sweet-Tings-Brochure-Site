@@ -12,7 +12,11 @@ export default {
       lg: '940',
       xl: '1140'
     },
-    extend: {}
+    extend: {
+      colors: {
+        brand: '#e46486'
+      }
+    }
   },
   variants: {
     extend: {}

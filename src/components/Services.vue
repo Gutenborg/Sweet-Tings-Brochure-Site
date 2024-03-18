@@ -1,44 +1,42 @@
 <script setup lang="ts">
-import { ref } from 'vue';
 import Service from './Service.vue';
 import Heading from './Heading.vue';
 
-const services = ref([
+const services = [
   {
-    description: 'Service Description',
+    description:
+      'We use Ghirardelli chocolate and real fruit in our cookies to get that great flavor.',
+    image: '/src/assets/ingredients.png',
+    name: 'Quality Ingredients'
+  },
+  {
+    description: 'Our cookies are baked to order so you always get fresh, delicious cookies.',
+    image: '/src/assets/mixing.png',
     name: 'Baked Fresh'
   },
   {
-    description: 'Service Description',
-    name: 'Great Value'
-  },
-  {
-    description: 'Service Description',
-    name: 'Institutions'
-  },
-  {
-    description: 'Service Description',
+    description: 'We can deliver within 10 miles of Dover, New Hampshire.',
+    image: '/src/assets/shipping.png',
     name: 'Delivery to Your Door'
   },
   {
-    description: 'Service Description',
-    name: 'No Order Too Large'
-  },
-  {
-    description: 'Service Description',
-    name: 'Delicious Baking'
+    description:
+      'Just be sure to give us a heads up and we can make up to 12 dozen cookies for you. A dozen dozens!',
+    image: '/src/assets/cookies.png',
+    name: 'Large Orders Welcome!'
   }
-]);
+];
 </script>
 
 <template>
   <section>
     <Heading>Enticing Treats</Heading>
 
-    <div class="grid gap-2 grid-cols-2 grid-rows-4 w-8/12 mx-auto">
+    <div class="grid gap-8 grid-cols-2 w-9/12 mx-auto">
       <Service
         v-for="service in services"
         :description="service.description"
+        :image="service.image"
         :name="service.name"
         :key="service.name"
       />

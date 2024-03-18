@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'Lemon Days';
-  src: url('./assets/lemon-days.ttf'), format('truetype');
+  src: url('/src/assets/lemon-days.ttf'), format('truetype');
 }
 
 @font-face {
   font-family: 'Klik';
-  src: url('./assets/klik.otf'), format('opentype');
+  src: url('/src/assets/klik.otf'), format('opentype');
 }
 
 .lemon-days {
@@ -21,7 +21,7 @@ body {
 }
 
 .sweet-tings-background {
-  background-image: url(./assets/chocolate-chip-cookies.jpg);
+  background-image: url(/src/assets/chocolate-chip-cookies.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
