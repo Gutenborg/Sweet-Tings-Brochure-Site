@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <div class="text-2xl md:text-lg text-center md:text-left">
+    <div class="order-1 md:order-2 text-2xl md:text-lg text-center md:text-left">
       <h2 class="text-5xl md:text-xl font-bold lemon-days">Contact Us</h2>
       <p>
         <a href="https://facebook.com/sweettingscookies"
