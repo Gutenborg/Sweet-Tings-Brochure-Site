@@ -1,5 +1,11 @@
 <script setup lang="ts">
-defineProps(['description', 'image', 'name']);
+interface ServiceProps {
+  description?: string;
+  image: string;
+  name: string;
+}
+
+defineProps<ServiceProps>();
 </script>
 
 <template>
@@ -7,7 +13,7 @@ defineProps(['description', 'image', 'name']);
     <img class="h-auto w-32" :src="image" />
 
     <div>
-      <h3 class="text-xl font-bold">{{ name }}</h3>
+      <h3 class="text-xl font-bold lemon-days">{{ name }}</h3>
       <p>{{ description }}</p>
     </div>
   </div>

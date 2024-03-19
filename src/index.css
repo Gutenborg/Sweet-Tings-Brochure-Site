@@ -12,6 +12,10 @@
   src: url('/src/assets/klik.otf'), format('opentype');
 }
 
+a {
+  @apply underline;
+}
+
 .lemon-days {
   font-family: 'Lemon Days', sans-serif;
 }
@@ -21,7 +25,7 @@ body {
 }
 
 .sweet-tings-background {
-  background-image: url(/src/assets/chocolate-chip-cookies.jpg);
+  background-image: url(/src/assets/chocolate-chip-cookies-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

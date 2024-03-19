@@ -11,8 +11,8 @@ const sectionClasses = 'bg-brand rounded-3xl text-white text-center text-2xl fon
 
       <div class="grid gap-12 grid-cols-3 mt-4">
         <p :class="sectionClasses">
-          Find Us On<br /><a class="underline" href="https://facebook.com/sweettingscookies"
-            >Facebook!</a
+          Find Us On<br /><a href="https://facebook.com/sweettingscookies"
+            ><img class="w-10 inline-block mr-1" src="/src/assets/facebook-logo.svg" />Facebook!</a
           >
         </p>
 
