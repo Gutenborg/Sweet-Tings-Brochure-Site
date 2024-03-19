@@ -62,7 +62,7 @@ const cookies = [
   <section class="mt-8">
     <Heading>Our Cookies</Heading>
 
-    <div class="grid grid-cols-2 w-9/12 mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 w-11/12 md:w-9/12 mx-auto">
       <Cookie
         v-for="cookie in cookies"
         :description="cookie.description"

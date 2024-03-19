@@ -1,13 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-
-interface HeadingProps {
-  size?: 'md' | 'lg';
-}
-
-const props = withDefaults(defineProps<HeadingProps>(), { size: 'md' });
-
-const fontSize = computed(() => (props.size === 'md' ? 'text-6xl' : 'text-9xl'));
+const fontSize = 'text-5xl md:text-6xl';
 </script>
 
 <template>

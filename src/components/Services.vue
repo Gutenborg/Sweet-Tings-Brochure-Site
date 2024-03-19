@@ -32,7 +32,7 @@ const services = [
   <section>
     <Heading>Enticing Treats</Heading>
 
-    <div class="grid gap-8 grid-cols-2 w-9/12 mx-auto">
+    <div class="grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 w-11/12 md:w-9/12 mx-auto">
       <Service
         v-for="service in services"
         :description="service.description"

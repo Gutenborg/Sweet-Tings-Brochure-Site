@@ -9,7 +9,7 @@ defineProps<ServiceProps>();
 </script>
 
 <template>
-  <div class="flex items-center gap-2 p-6">
+  <div class="flex items-center gap-2 p-2 md:p-6">
     <img class="h-auto w-32" :src="image" />
 
     <div>

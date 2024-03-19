@@ -6,11 +6,11 @@ export default {
   plugins: [],
   theme: {
     screens: {
-      xs: '340',
-      sm: '540',
-      md: '720',
-      lg: '940',
-      xl: '1140'
+      xs: '340px',
+      sm: '540px',
+      md: '720px',
+      lg: '940px',
+      xl: '1140px'
     },
     extend: {
       colors: {
