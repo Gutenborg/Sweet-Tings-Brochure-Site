@@ -1,28 +1,32 @@
 <script setup lang="ts">
 import Service from './Service.vue';
 import Heading from './Heading.vue';
+import ingredients from '../assets/ingredients.png';
+import mixing from '../assets/mixing.png';
+import shipping from '../assets/shipping.png';
+import cookies from '../assets/cookies.png';
 
 const services = [
   {
     description:
       'We use Ghirardelli chocolate and real fruit in our cookies to get that great flavor.',
-    image: '/src/assets/ingredients.png',
+    image: ingredients,
     name: 'Quality Ingredients'
   },
   {
     description: 'Our cookies are baked to order so you always get fresh, delicious cookies.',
-    image: '/src/assets/mixing.png',
+    image: mixing,
     name: 'Baked Fresh'
   },
   {
     description: 'We can deliver within 10 miles of Dover, New Hampshire.',
-    image: '/src/assets/shipping.png',
+    image: shipping,
     name: 'Delivery to Your Door'
   },
   {
     description:
       'Just be sure to give us a heads up and we can make up to 12 dozen cookies for you. A dozen dozens!',
-    image: '/src/assets/cookies.png',
+    image: cookies,
     name: 'Large Orders Welcome!'
   }
 ];
