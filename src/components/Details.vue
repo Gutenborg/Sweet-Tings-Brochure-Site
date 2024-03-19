@@ -3,9 +3,7 @@ const sectionClasses = 'bg-brand rounded-3xl text-white text-center text-2xl fon
 </script>
 
 <template>
-  <section
-    class="h-screen w-screen sweet-tings-background flex flex-col justify-center items-center"
-  >
+  <section class="h-screen w-full sweet-tings-background flex flex-col justify-center items-center">
     <img class="border-white border-solid mx-auto w-9/12 md:w-4/12" src="/src/assets/logo.svg" />
 
     <div class="bg-white w-11/12 md:w-8/12 rounded-3xl px-6 md:px-16 py-6">
