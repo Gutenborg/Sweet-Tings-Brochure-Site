@@ -1,4 +1,4 @@
-# sweet-tings-brochure
+# Sweet Ting's Cookies Brochure Website
 
 This template should help get you started developing with Vue 3 in Vite.
 
